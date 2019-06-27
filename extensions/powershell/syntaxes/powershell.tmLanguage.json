@@ -245,6 +245,10 @@
 			"name": "punctuation.terminator.statement.powershell"
 		},
 		{
+			"match": "`(?=\r?\n|$)",
+			"name": "keyword.operator.other.lineContinuation.powershell"
+		},
+		{
 			"match": "&|(?<!\\w)\\.(?= )|`|,|\\|",
 			"name": "keyword.operator.other.powershell"
 		},
